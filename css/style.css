@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+}
+h1, h2{
+    font-weight: 700;
+}
+h3{
+    font-weight: 600;
+}
+h4{
+    font-weight: 500;
+}
+h5{
+    font-weight: 400;
+}
+a{
+    text-decoration: none !important;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+.active{
+    color: #ffc107 !important;
+}
+main{
+    margin-top: 150px;
+}
+.navbar {
+    background-color: #fff;
+}
+.nav-link{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.navbar-brand{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900 !important;
+    font-size: 22px !important;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.centered-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.base-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+.breadcrums{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #7a7a7a;
+    font-weight: 500;
+    text-align: center;
+}
+.page_title{
+    text-align: center;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+.page_title h1{
+    font-weight: 600;
+}
+footer{
+    padding: 50px;
+    background-color: #d4d4d4;
+    margin-top: 50px;
+}
+
+/* HomePage CSS */
+.head_text{
+    min-height: 100vh;
+}
+.header_text{
+    padding: 60px 40px 10px 40px;
+}
+.header_image{
+    overflow: hidden;
+}
+.header_text h1{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 2.8rem;
+}
+.header_text h3{
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: #ffc107;
+    text-transform: uppercase;
+}
+.header_text p{
+    font-size: 0.9rem;
+}
+.header_image img{
+    max-height: 800px;
+}
+
+.home_btn_1, .home_btn_2{
+    margin: 0;
+    border: 0;
+    padding: 15px 25px;
+    font-size: 1rem;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.2);
+    color: black;
+}
+.btn-group .home_btn_1{
+    background-color: #ffc107;
+    transition: 0.5s;
+}
+.btn-group .home_btn_2{
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.btn-group:hover .home_btn_1{
+    background-color: #fff;
+}
+.btn-group:hover .home_btn_2{
+    background-color: #ffc107;
+}
+
+/* About CSS */
+.about_right, .about_left{
+    padding: 50px;
+}
+
+
+.about_left h3{
+    font-size: 14px;
+    color: #ffc107;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.socials{
+    list-style: none;
+    padding: 0;
+    font-size: 2rem;
+}
+.socials li{
+    float: left;
+    margin-right: 20px;
+    color: #ffc107;
+}
+.socials li a{
+    color: #ffc107;
+}
+.skill_bar{
+    margin-bottom: 30px;
+}
+.skill_bar h5{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.skill_level_bar{
+    min-height: 30px;
+    border: 2px #ffc107 solid;
+    margin-right: 5px;
+}
+.skill_level{
+    background-color: #ffc107;
+}
+.skill_level_text p{
+    color: #ffc107;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.bar_start{
+    border-radius: 30px 0 0 30px;
+}
+.bar_end{
+    border-radius: 0 30px 30px 0;
+}
+
+/* Contact CSS */
+.contact_details{
+    padding-right: 50px;
+}
+.contact_details h5{
+    margin-top: 30px;
+}
+
+/* Service CSS */
+.service{
+    padding: 15px;
+    transition: 0.3s;
+}
+.service_details{
+    padding: 50px 15px 15px 15px;
+    border: #ffc107 solid 1px;
+    text-align: center;
+}
+.service_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -40px;
+}
+.service_icon i{
+    font-size: 40px;
+    line-height: 80px;
+    width: 80px;
+    text-align: center;
+    border: #ffc107 1px solid;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.service_title h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.service:hover{
+    color: #fff;
+}
+.service:hover .service_details{
+    background-color: #ffc107;
+}
+
+.service:hover .service_icon{
+    color: #ffc107;
+}
+
+/* Resume CSS */
+.resume{
+    padding-top: 50px;
+}
+.resume h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.resume_row{
+    margin: 0;
+    padding: 0;
+}
+.resume_right{
+    border-right: #ffc107 solid 3px;
+    margin: 0;
+}
+.resume_right img{
+    width: 100%;
+}
+.resume_right h4{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.resume_right h5{
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.resume_right h6{
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.resume_left{
+    border-left: #ffc107 solid 3px;
+    margin: 0;
+}
+.resume_left img{
+    width: 100%;
+}
+.resume_left h4{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.resume_left h5{
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.resume_left h6{
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+/* Portfolio CSS */
+.portfolio_title h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.portfolio_button .btn{
+    background-color: #ffc107;
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.2);
+    border-radius: 0;
+}
